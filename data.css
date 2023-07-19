@@ -1,0 +1,28 @@
+body{
+    color: blueviolet;
+    background: whitesmoke;
+}
+button:hover{
+    opacity: .7;
+    color: red;
+
+}
+input{
+    border-radius: 5px solid blue;
+    box-sizing: content-box;
+    width: 500vh;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+label{
+    color: aquamarine;
+    font-size: 22px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}

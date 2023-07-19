@@ -11,6 +11,8 @@ include 'db_conn.php';
     <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
+    
+
     <form action="#" method="POST">
         <h2>Login</h2>
         <?php if (isset($_GET['error'])) {
@@ -35,6 +37,7 @@ if (isset($_POST['login'])){
             alert("well come director!!! ") ;
         </script>
         <?php
+        header("location:display.php");
        }else
        {
         ?>
@@ -43,7 +46,6 @@ if (isset($_POST['login'])){
             
         </script>
         <?php
-        header("location:index.php");
        }
     }
 

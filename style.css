@@ -1,5 +1,5 @@
 body{
-    background: #1690a7;
+    background: #454;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ h2{
     margin-bottom: 40px;
 }
 input{
-    display: block;
+
     border: 2px solid #ccc;
     width: 95%;
      padding: 10px;
